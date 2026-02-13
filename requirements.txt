@@ -1,0 +1,40 @@
+# --- FastAPI for the web server ---
+fastapi
+uvicorn[standard]
+pydantic[dotenv]
+
+# --- Core AI and ML libraries ---
+torch
+transformers
+sentence-transformers
+
+# --- Vector Database ---
+# Note: If faiss-gpu installation fails, try 'faiss-cpu' instead
+faiss-cpu
+
+# --- Document Parsers ---
+PyMuPDF
+python-docx
+python-pptx
+
+# --- Libraries for Fine-Tuning ---
+datasets
+accelerate
+sentencepiece 
+
+scikit-learn
+fitz
+
+youtube-transcript-api
+
+llama-cpp-python
+
+# --- Testing ---
+pytest
+pytest-asyncio
+pytest-cov
+
+# --- Utilities ---
+python-multipart
+aiofiles
+psutil  # For memory monitoring

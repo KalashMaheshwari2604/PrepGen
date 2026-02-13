@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Models (large files)
+models/
+my_academic_summarizer_scientific/
+my_final_cnn_model/
+my_final_xsum_model/
+t5-samsum-model/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp_uploads/
+
+# Cache
+*.cache
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
