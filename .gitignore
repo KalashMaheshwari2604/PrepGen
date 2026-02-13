@@ -12,6 +12,9 @@ ENV/
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
+# Experiments folder
+_experiments/
+
 # Models (large files)
 models/
 my_academic_summarizer_scientific/
