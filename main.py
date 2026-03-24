@@ -366,10 +366,13 @@ if __name__ == "__main__":
     # Groq API verification removed for cleaner output
     pass
     
+    # Use PORT environment variable (required for Render deployment)
+    port = int(os.environ.get("PORT", 8000))
+    
     uvicorn.run(
         app, 
         host="0.0.0.0", 
-        port=8000,
+        port=port,
         timeout_keep_alive=300,  # 5 minutes keep-alive
         timeout_graceful_shutdown=30  # 30 seconds for graceful shutdown
     )

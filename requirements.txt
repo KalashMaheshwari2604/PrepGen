@@ -2,6 +2,7 @@
 fastapi
 uvicorn[standard]
 pydantic[dotenv]
+python-dotenv
 
 # --- Core AI and ML libraries ---
 torch
